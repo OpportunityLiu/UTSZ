@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTSZ.Client", "UTSZ.Client\UTSZ.Client.csproj", "{A3C2B7C6-8483-41B7-9E0B-4C2534487018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTSZ.Console", "UTSZ.Console\UTSZ.Console.csproj", "{B01B14C0-608F-4B0A-9E2E-6F2FA4ABB8CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3C2B7C6-8483-41B7-9E0B-4C2534487018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C2B7C6-8483-41B7-9E0B-4C2534487018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C2B7C6-8483-41B7-9E0B-4C2534487018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C2B7C6-8483-41B7-9E0B-4C2534487018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01B14C0-608F-4B0A-9E2E-6F2FA4ABB8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01B14C0-608F-4B0A-9E2E-6F2FA4ABB8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01B14C0-608F-4B0A-9E2E-6F2FA4ABB8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01B14C0-608F-4B0A-9E2E-6F2FA4ABB8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0ABD7B2-AFE8-4C03-AFD3-E1091475B230}
+	EndGlobalSection
+EndGlobal
