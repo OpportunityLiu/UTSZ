@@ -10,13 +10,13 @@ namespace UTSZ.Client
     {
         private static HttpClient client = new HttpClient
         {
-
         };
 
         public static async Task ConnentAsync(string username, string password)
         {
-            var ac_test = await client.GetAsync("http://msconnecttest.com");
-            if (ac_test.RequestMessage.RequestUri.Host == "msconnecttest.com")
+            var ac_test = await client.GetAsync("http://connect.rom.miui.com/generate_204");
+            if (ac_test.StatusCode == System.Net.HttpStatusCode.NoContent
+                || (ac_test.StatusCode == System.Net.HttpStatusCode.OK && ac_test.Content.Headers.ContentLength == 0))
                 return;
             var ac_id = string.Concat(ac_test.RequestMessage.RequestUri.PathAndQuery.Where(char.IsDigit));
             if (string.IsNullOrEmpty(ac_id))
